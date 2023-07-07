@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Nav() {
   return (
-    <nav className="text-3xl flex justify-between px-12 py-8 font-inter bg-yellow-100">
+    <nav className="text-3xl flex justify-between px-12 py-8 font-inter bg-yellow-100 fixed w-screen z-10">
       <Link to="/">
         <h1 className="font-extrabold text-3xl">#VANLIFE</h1>
       </Link>
