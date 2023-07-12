@@ -6,11 +6,11 @@ export default function Nav() {
       <Link to="/">
         <h1 className="font-extrabold text-3xl">#VANLIFE</h1>
       </Link>
-      <div className="link text-2xl">
-        <Link to="/about" className="pr-5 hover:underline">
+      <div className="link text-2xl ">
+        <Link to="/about" className="pr-5  transition-all ease-out hover:text-yellow-600">
           About
         </Link>
-        <Link to="/vans" className="pr-5 hover:underline">
+        <Link to="/vans" className="pr-5 transition-all ease-out hover:text-yellow-600">
           Vans
         </Link>
       </div>
